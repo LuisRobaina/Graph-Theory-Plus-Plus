@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/luisfabian/Desktop/C++/GraphTheory/Graph.h
+vector
+-
+Vertex.h
+/Users/luisfabian/Desktop/C++/GraphTheory/Vertex.h
+
+/Users/luisfabian/Desktop/C++/GraphTheory/Vertex.h
+vector
+-
+
+/Users/luisfabian/Desktop/C++/GraphTheory/main.cpp
+iostream
+-
+Graph.h
+/Users/luisfabian/Desktop/C++/GraphTheory/Graph.h
+
