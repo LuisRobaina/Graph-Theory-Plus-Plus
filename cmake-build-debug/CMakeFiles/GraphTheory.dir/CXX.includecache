@@ -6,19 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/luisfabian/Desktop/C++/GraphTheory/Graph.h
+/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.cpp
+Graph.h
+/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.h
+
+/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.h
 vector
 -
 Vertex.h
-/Users/luisfabian/Desktop/C++/GraphTheory/Vertex.h
+/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.h
 
-/Users/luisfabian/Desktop/C++/GraphTheory/Vertex.h
+/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.cpp
+Vertex.h
+/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.h
+iostream
+-
+
+/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.h
 vector
 -
 
 /Users/luisfabian/Desktop/C++/GraphTheory/main.cpp
 iostream
 -
-Graph.h
-/Users/luisfabian/Desktop/C++/GraphTheory/Graph.h
+Utils/Graph.h
+/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.h
 

@@ -80,16 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Graph.cpp">
+		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Algorithms/DijkstrasDistanceAlgorithm.cpp">
 			<Option target="GraphTheory"/>
 		</Unit>
-		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Graph.h">
+		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Algorithms/DijkstrasDistanceAlgorithm.h">
 			<Option target="GraphTheory"/>
 		</Unit>
-		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Vertex.cpp">
+		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.cpp">
 			<Option target="GraphTheory"/>
 		</Unit>
-		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Vertex.h">
+		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.h">
+			<Option target="GraphTheory"/>
+		</Unit>
+		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.cpp">
+			<Option target="GraphTheory"/>
+		</Unit>
+		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.h">
 			<Option target="GraphTheory"/>
 		</Unit>
 		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/main.cpp">

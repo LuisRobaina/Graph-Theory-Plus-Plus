@@ -27,12 +27,14 @@ bool Vertex::isAdj(const Vertex &a) {
     return false;
 }
 
-void Vertex::print_adjacency_bag() {
-    for (int i = 0; i < adjacency_count; i++) {
-        cout << adjacent_vertices[i].getId() << " at " << &adjacent_vertices[i] << endl;
-    }
+// For Testing purposes
 
-}
+//void Vertex::print_adjacency_bag() {
+//    for (int i = 0; i < adjacency_count; i++) {
+//        cout << adjacent_vertices[i].getId() << " at " << &adjacent_vertices[i] << endl;
+//    }
+//
+//}
 
 int Vertex::getId() const {
     return id;

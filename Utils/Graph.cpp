@@ -1,9 +1,10 @@
 //
 // Created by Luis Fabian on 2/5/20.
+// Implements the utilities needed for algorithms on graph-like objects.
 //
 
 #include "Graph.h"
-#include <iostream>
+
 
 Graph::Graph(char type) {
     this->type = type;

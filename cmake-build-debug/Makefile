@@ -123,59 +123,86 @@ GraphTheory/fast:
 	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/build
 .PHONY : GraphTheory/fast
 
-Graph.o: Graph.cpp.o
+Algorithms/DijkstrasDistanceAlgorithm.o: Algorithms/DijkstrasDistanceAlgorithm.cpp.o
 
-.PHONY : Graph.o
-
-# target to build an object file
-Graph.cpp.o:
-	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Graph.cpp.o
-.PHONY : Graph.cpp.o
-
-Graph.i: Graph.cpp.i
-
-.PHONY : Graph.i
-
-# target to preprocess a source file
-Graph.cpp.i:
-	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Graph.cpp.i
-.PHONY : Graph.cpp.i
-
-Graph.s: Graph.cpp.s
-
-.PHONY : Graph.s
-
-# target to generate assembly for a file
-Graph.cpp.s:
-	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Graph.cpp.s
-.PHONY : Graph.cpp.s
-
-Vertex.o: Vertex.cpp.o
-
-.PHONY : Vertex.o
+.PHONY : Algorithms/DijkstrasDistanceAlgorithm.o
 
 # target to build an object file
-Vertex.cpp.o:
-	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Vertex.cpp.o
-.PHONY : Vertex.cpp.o
+Algorithms/DijkstrasDistanceAlgorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Algorithms/DijkstrasDistanceAlgorithm.cpp.o
+.PHONY : Algorithms/DijkstrasDistanceAlgorithm.cpp.o
 
-Vertex.i: Vertex.cpp.i
+Algorithms/DijkstrasDistanceAlgorithm.i: Algorithms/DijkstrasDistanceAlgorithm.cpp.i
 
-.PHONY : Vertex.i
+.PHONY : Algorithms/DijkstrasDistanceAlgorithm.i
 
 # target to preprocess a source file
-Vertex.cpp.i:
-	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Vertex.cpp.i
-.PHONY : Vertex.cpp.i
+Algorithms/DijkstrasDistanceAlgorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Algorithms/DijkstrasDistanceAlgorithm.cpp.i
+.PHONY : Algorithms/DijkstrasDistanceAlgorithm.cpp.i
 
-Vertex.s: Vertex.cpp.s
+Algorithms/DijkstrasDistanceAlgorithm.s: Algorithms/DijkstrasDistanceAlgorithm.cpp.s
 
-.PHONY : Vertex.s
+.PHONY : Algorithms/DijkstrasDistanceAlgorithm.s
 
 # target to generate assembly for a file
-Vertex.cpp.s:
-	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Vertex.cpp.s
-.PHONY : Vertex.cpp.s
+Algorithms/DijkstrasDistanceAlgorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Algorithms/DijkstrasDistanceAlgorithm.cpp.s
+.PHONY : Algorithms/DijkstrasDistanceAlgorithm.cpp.s
+
+Utils/Graph.o: Utils/Graph.cpp.o
+
+.PHONY : Utils/Graph.o
+
+# target to build an object file
+Utils/Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Utils/Graph.cpp.o
+.PHONY : Utils/Graph.cpp.o
+
+Utils/Graph.i: Utils/Graph.cpp.i
+
+.PHONY : Utils/Graph.i
+
+# target to preprocess a source file
+Utils/Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Utils/Graph.cpp.i
+.PHONY : Utils/Graph.cpp.i
+
+Utils/Graph.s: Utils/Graph.cpp.s
+
+.PHONY : Utils/Graph.s
+
+# target to generate assembly for a file
+Utils/Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Utils/Graph.cpp.s
+.PHONY : Utils/Graph.cpp.s
+
+Utils/Vertex.o: Utils/Vertex.cpp.o
+
+.PHONY : Utils/Vertex.o
+
+# target to build an object file
+Utils/Vertex.cpp.o:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Utils/Vertex.cpp.o
+.PHONY : Utils/Vertex.cpp.o
+
+Utils/Vertex.i: Utils/Vertex.cpp.i
+
+.PHONY : Utils/Vertex.i
+
+# target to preprocess a source file
+Utils/Vertex.cpp.i:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Utils/Vertex.cpp.i
+.PHONY : Utils/Vertex.cpp.i
+
+Utils/Vertex.s: Utils/Vertex.cpp.s
+
+.PHONY : Utils/Vertex.s
+
+# target to generate assembly for a file
+Utils/Vertex.cpp.s:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Utils/Vertex.cpp.s
+.PHONY : Utils/Vertex.cpp.s
 
 main.o: main.cpp.o
 
@@ -213,12 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... GraphTheory"
-	@echo "... Graph.o"
-	@echo "... Graph.i"
-	@echo "... Graph.s"
-	@echo "... Vertex.o"
-	@echo "... Vertex.i"
-	@echo "... Vertex.s"
+	@echo "... Algorithms/DijkstrasDistanceAlgorithm.o"
+	@echo "... Algorithms/DijkstrasDistanceAlgorithm.i"
+	@echo "... Algorithms/DijkstrasDistanceAlgorithm.s"
+	@echo "... Utils/Graph.o"
+	@echo "... Utils/Graph.i"
+	@echo "... Utils/Graph.s"
+	@echo "... Utils/Vertex.o"
+	@echo "... Utils/Vertex.i"
+	@echo "... Utils/Vertex.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

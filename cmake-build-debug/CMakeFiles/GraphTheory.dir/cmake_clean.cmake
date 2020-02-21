@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GraphTheory.dir/Graph.cpp.o"
-  "CMakeFiles/GraphTheory.dir/Vertex.cpp.o"
+  "CMakeFiles/GraphTheory.dir/Algorithms/DijkstrasDistanceAlgorithm.cpp.o"
+  "CMakeFiles/GraphTheory.dir/Utils/Graph.cpp.o"
+  "CMakeFiles/GraphTheory.dir/Utils/Vertex.cpp.o"
   "CMakeFiles/GraphTheory.dir/main.cpp.o"
   "GraphTheory"
   "GraphTheory.pdb"
