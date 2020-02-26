@@ -1,18 +1,26 @@
-#include <iostream>
 #include "Utils/Graph.h"
 
 using namespace std;
 
 int main() {
 
-    Graph G;
+  // Create an empty graph.
+  Graph G('A');
 
-    G.add_vertex(0);
-    G.add_vertex(1);
-    G.add_vertex(2);
+  // Add vertices to the graph G.
 
-    G.connect(0, 1, 50);
-    G.connect(0, 2);
+  G.add_vertex('a');
+  G.add_vertex('b');
+  G.add_vertex('c');
+  G.add_vertex('d');
 
-    return 0;
+  // Add Edge between vertices.
+  G.connect('a','c');
+  G.connect('b', 'c');
+  G.connect('c', 'a');
+  G.connect('d', 'a');
+
+  G.visualize();
+
+  return 0;
 }

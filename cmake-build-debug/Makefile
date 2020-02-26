@@ -123,33 +123,6 @@ GraphTheory/fast:
 	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/build
 .PHONY : GraphTheory/fast
 
-Algorithms/DijkstrasDistanceAlgorithm.o: Algorithms/DijkstrasDistanceAlgorithm.cpp.o
-
-.PHONY : Algorithms/DijkstrasDistanceAlgorithm.o
-
-# target to build an object file
-Algorithms/DijkstrasDistanceAlgorithm.cpp.o:
-	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Algorithms/DijkstrasDistanceAlgorithm.cpp.o
-.PHONY : Algorithms/DijkstrasDistanceAlgorithm.cpp.o
-
-Algorithms/DijkstrasDistanceAlgorithm.i: Algorithms/DijkstrasDistanceAlgorithm.cpp.i
-
-.PHONY : Algorithms/DijkstrasDistanceAlgorithm.i
-
-# target to preprocess a source file
-Algorithms/DijkstrasDistanceAlgorithm.cpp.i:
-	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Algorithms/DijkstrasDistanceAlgorithm.cpp.i
-.PHONY : Algorithms/DijkstrasDistanceAlgorithm.cpp.i
-
-Algorithms/DijkstrasDistanceAlgorithm.s: Algorithms/DijkstrasDistanceAlgorithm.cpp.s
-
-.PHONY : Algorithms/DijkstrasDistanceAlgorithm.s
-
-# target to generate assembly for a file
-Algorithms/DijkstrasDistanceAlgorithm.cpp.s:
-	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Algorithms/DijkstrasDistanceAlgorithm.cpp.s
-.PHONY : Algorithms/DijkstrasDistanceAlgorithm.cpp.s
-
 Utils/Graph.o: Utils/Graph.cpp.o
 
 .PHONY : Utils/Graph.o
@@ -240,9 +213,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... GraphTheory"
-	@echo "... Algorithms/DijkstrasDistanceAlgorithm.o"
-	@echo "... Algorithms/DijkstrasDistanceAlgorithm.i"
-	@echo "... Algorithms/DijkstrasDistanceAlgorithm.s"
 	@echo "... Utils/Graph.o"
 	@echo "... Utils/Graph.i"
 	@echo "... Utils/Graph.s"

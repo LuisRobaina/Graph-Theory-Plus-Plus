@@ -1,46 +1,43 @@
 //
 // Created by Luis Fabian on 2/5/20.
 //
+
 #include "Vertex.h"
-#include  <iostream>
 
 using namespace std;
 
-Vertex::Vertex(int id) {
-    this->id = id;
-    adjacency_count = 0;
+Vertex::Vertex(int id, char id_char, string content) {
+  this->id = id;
+  this->id_char = id_char;
+  this->content = content;
+  adjacency_count = 0;
 }
 
+// TODO: Update to keep track of vertex id in data struct and not the reference.
 void Vertex::addAdj(const Vertex &a, double weight) {
 
-    this->adjacent_vertices.push_back(a);
-    this->edge_weight.push_back(weight);
-    adjacency_count++;
+  // Keep parallel vectors with a reference to edge a and respective edge
+  // weight.
+  this->adjacent_vertices.push_back(a);
+  this->edge_weight.push_back(weight);
+  adjacency_count++;
 }
 
 bool Vertex::isAdj(const Vertex &a) {
-    for (int i = 0; i < this->adjacency_count; i++) {
-        if (this->adjacent_vertices[i] == a) {
-            return true;
-        }
+  for (int i = 0; i < this->adjacency_count; i++) {
+    if (this->adjacent_vertices[i] == a) {
+      return true;
     }
-    return false;
+  }
+  return false;
 }
 
-// For Testing purposes
+int Vertex::getId() const { return id; }
+char Vertex::get_char_id() const { return id_char; }
 
-//void Vertex::print_adjacency_bag() {
-//    for (int i = 0; i < adjacency_count; i++) {
-//        cout << adjacent_vertices[i].getId() << " at " << &adjacent_vertices[i] << endl;
-//    }
-//
-//}
-
-int Vertex::getId() const {
-    return id;
-}
+std::string Vertex::get_content() const { return content; }
 
 // Invariant: No two vertices with the same data.
 bool Vertex::operator==(const Vertex &rhs) {
-    return (this->getId() == rhs.getId());
+  return (this->getId() == rhs.getId());
 }

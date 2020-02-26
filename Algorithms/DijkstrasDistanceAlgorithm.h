@@ -1,8 +1,11 @@
 //
 // Created by Luis Fabian on 2/20/20.
-//
+// Implements Dijkstra's Single Source Distance Algorithm.
+
 
 #ifndef GRAPHTHEORY_DIJKSTRASDISTANCEALGORITHM_H
 #define GRAPHTHEORY_DIJKSTRASDISTANCEALGORITHM_H
+
+
 
 #endif //GRAPHTHEORY_DIJKSTRASDISTANCEALGORITHM_H

@@ -5,31 +5,36 @@
 #ifndef GRAPHTHEORY_GRAPH_H
 #define GRAPHTHEORY_GRAPH_H
 
+#include "../Algorithms/DijkstrasDistanceAlgorithm.h"
+#include "Edge.h"
+#include "Vertex.h"
 #include <vector>
-#include "Vertex.h";
-
 
 using namespace std;
 
 class Graph {
 
 private:
-    int size;
-    char type;
-    vector<Vertex *> G;
+  char graph_id;
+  int size;
+  char type;
+  vector<Vertex *> V_G;
+  vector<Edge *> E_G;
+  int vertex_count;
+  int edge_count;
+
 public:
-    // D: directed, U: undirected.
-    Graph(char type = 'U');
+  // Convention = D: directed, U: undirected.
+  Graph(char graph_id, char type = 'U');
 
-    void add_vertex(int);
+  void add_vertex(char id_char = ' ', string content = "");
 
-    void connect(int, int, double weight = 0);
+  void connect(const char &, const char &, double weight = 0);
 
-    char getType();
+  void visualize();
 
-    Vertex get_vertex(int);
+  char getType();
 
+  Vertex get_vertex(int);
 };
-
-
-#endif //GRAPHTHEORY_GRAPH_H
+#endif // GRAPHTHEORY_GRAPH_H
