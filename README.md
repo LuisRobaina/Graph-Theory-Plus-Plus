@@ -3,7 +3,7 @@
 A library of C++ code that implements graph theoretical algorithms to be used by projects that require some form of graph structured data.
 
 # How to use it:
-`
+```
   Create an empty graph.
   Graph G('A');
 
