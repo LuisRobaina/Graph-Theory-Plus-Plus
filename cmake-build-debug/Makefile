@@ -177,32 +177,32 @@ Utils/Vertex.cpp.s:
 	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Utils/Vertex.cpp.s
 .PHONY : Utils/Vertex.cpp.s
 
-main.o: main.cpp.o
+sample_client.o: sample_client.cpp.o
 
-.PHONY : main.o
+.PHONY : sample_client.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/main.cpp.o
-.PHONY : main.cpp.o
+sample_client.cpp.o:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/sample_client.cpp.o
+.PHONY : sample_client.cpp.o
 
-main.i: main.cpp.i
+sample_client.i: sample_client.cpp.i
 
-.PHONY : main.i
+.PHONY : sample_client.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/main.cpp.i
-.PHONY : main.cpp.i
+sample_client.cpp.i:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/sample_client.cpp.i
+.PHONY : sample_client.cpp.i
 
-main.s: main.cpp.s
+sample_client.s: sample_client.cpp.s
 
-.PHONY : main.s
+.PHONY : sample_client.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/main.cpp.s
-.PHONY : main.cpp.s
+sample_client.cpp.s:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/sample_client.cpp.s
+.PHONY : sample_client.cpp.s
 
 # Help Target
 help:
@@ -219,9 +219,9 @@ help:
 	@echo "... Utils/Vertex.o"
 	@echo "... Utils/Vertex.i"
 	@echo "... Utils/Vertex.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... sample_client.o"
+	@echo "... sample_client.i"
+	@echo "... sample_client.s"
 .PHONY : help
 
 

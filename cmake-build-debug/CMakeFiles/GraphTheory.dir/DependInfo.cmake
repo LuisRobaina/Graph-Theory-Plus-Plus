@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.cpp" "/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles/GraphTheory.dir/Utils/Graph.cpp.o"
   "/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.cpp" "/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles/GraphTheory.dir/Utils/Vertex.cpp.o"
-  "/Users/luisfabian/Desktop/C++/GraphTheory/main.cpp" "/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles/GraphTheory.dir/main.cpp.o"
+  "/Users/luisfabian/Desktop/C++/GraphTheory/sample_client.cpp" "/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles/GraphTheory.dir/sample_client.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

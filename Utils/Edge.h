@@ -14,9 +14,9 @@ public:
     this->weight = w;
   }
 
-  int getIdA() const { return id_a; }
+  int get_index_a() const { return id_a; }
 
-  int getIdB() const { return id_b; }
+  int get_index_b() const { return id_b; }
 
   double getWeight() const { return weight; }
 

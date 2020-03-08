@@ -98,7 +98,7 @@
 		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.h">
 			<Option target="GraphTheory"/>
 		</Unit>
-		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/main.cpp">
+		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/sample_client.cpp">
 			<Option target="GraphTheory"/>
 		</Unit>
 		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/CMakeLists.txt">

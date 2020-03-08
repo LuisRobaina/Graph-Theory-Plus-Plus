@@ -7,28 +7,24 @@
 #IncludeRegexTransform: 
 
 /Users/luisfabian/Desktop/C++/GraphTheory/Algorithms/DijkstrasDistanceAlgorithm.h
+../Utils/Graph.h
+/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.h
+iterator
+-
+map
+-
 
 /Users/luisfabian/Desktop/C++/GraphTheory/Utils/Edge.h
 Vertex.h
 /Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.h
 
-/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.cpp
-Graph.h
 /Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.h
-iostream
--
-string
--
-
-/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.h
-vector
--
-Vertex.h
-/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.h
 Edge.h
 /Users/luisfabian/Desktop/C++/GraphTheory/Utils/Edge.h
-../Algorithms/DijkstrasDistanceAlgorithm.h
-/Users/luisfabian/Desktop/C++/GraphTheory/Algorithms/DijkstrasDistanceAlgorithm.h
+Vertex.h
+/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.h
+vector
+-
 
 /Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.h
 string
@@ -36,7 +32,11 @@ string
 vector
 -
 
-/Users/luisfabian/Desktop/C++/GraphTheory/main.cpp
+/Users/luisfabian/Desktop/C++/GraphTheory/sample_client.cpp
+iostream
+-
 Utils/Graph.h
 /Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.h
+Algorithms/DijkstrasDistanceAlgorithm.h
+/Users/luisfabian/Desktop/C++/GraphTheory/Algorithms/DijkstrasDistanceAlgorithm.h
 

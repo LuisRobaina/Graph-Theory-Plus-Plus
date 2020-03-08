@@ -18,8 +18,6 @@ private:
   int adjacency_count;
 
 public:
-  // Keeps parallel vectors with adjacent vertices to this vertex and respective
-  // weights.
   vector<Vertex> adjacent_vertices;
   vector<double> edge_weight;
 

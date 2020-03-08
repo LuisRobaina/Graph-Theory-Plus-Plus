@@ -10,37 +10,78 @@
 Graph::Graph(char graph_id, char type) {
   this->type = type;
   this->graph_id = graph_id;
-  vertex_count = 0;
-  edge_count = 0;
+  order = 0;
+  size = 0;
 }
 
 char Graph::getType() { return type; }
 
 void Graph::add_vertex(char id_char, string content) {
 
-  // TODO: Validate: No two vertices with same id_char.
-
-  V_G.push_back(new Vertex(vertex_count, id_char, content));
-  vertex_count++;
+  // TODO: Assert: No two vertices with same id_char.
+  V_G.push_back(new Vertex(order, id_char, content));
+  order++;
 }
 
-Vertex Graph::get_vertex(int id) { return *V_G[id]; }
+/**
+ *
+ * @param i : Index of the ith vertex to be retreived.
+ * @return : A pointer to the ith vertex in G or nullptr if  there is no ith
+ * vertex in G.
+ */
+Vertex *Graph::get_ith_vertex(const int &i) const {
+  if (i < 0 || i >= V_G.size()) {
+    return nullptr;
+  }
+  return V_G[i];
+}
+/**
+ *
+ * @param id
+ * @return
+ */
 
-// Add an edge between two vertices with ids: id_a, id_b.
-// weight defaults to zero.
+Vertex *Graph::get_vertex_by_id(const char &id) const {
+  // TODO: Vertex id not found case.
+  for (auto &v : V_G) {
+    if (v->get_char_id() == id) {
+      return v;
+    }
+  }
+  return nullptr;
+}
 
-void Graph::connect(const char &id_a, const char &id_b, double weight) {
-  //  TODO: Throw exception if vertex is not found.
+/**
+ * Create an edge between the vertices a and b in the graph.
+ * If a or b are not vertices on the graph, creates a new vertex.
+ *
+ * @param id_a : Character ID of of the vertex  a.
+ * @param id_b : Character ID of of the vertex  b.
+ * @param weight : Weight  to be assigned to the edge a-b. weight defaults to 1.
+ */
+void Graph::add_edge(const char &id_a, const char &id_b, double weight) {
+
+  // Assume vertices with IDs id_a and id_b do not exists.
   int index_a = -1, index_b = -1;
 
-  // Find vertices a and b,
-  for (int i = 0; i < vertex_count; i++) {
+  // Try to find vertices with IDs id_a and id_b,
+  for (int i = 0; i < order; i++) {
 
     if (this->V_G.at(i)->get_char_id() == id_a) {
       index_a = i;
     } else if (this->V_G.at(i)->get_char_id() == id_b) {
       index_b = i;
     }
+  }
+
+  // If a and/or b were not found then index_a = -1 and/or index_b = -1.
+  if (index_a == -1) {
+    add_vertex(id_a);
+    index_a = V_G.size() - 1;
+  }
+  if (index_b == -1) {
+    add_vertex(id_b);
+    index_b = V_G.size() - 1;
   }
 
   // Is this graph directed ?
@@ -54,18 +95,20 @@ void Graph::connect(const char &id_a, const char &id_b, double weight) {
   }
 
   E_G.push_back(new Edge(index_a, index_b, weight));
-  edge_count++;
+  size++;
 }
 
-// Print every edge in the graph as a visual tool.
+/**
+ * Prints every edge in the graph, to be used as a visual tool.
+ */
 void Graph::visualize() {
 
   // Print information about the graph.
   std::cout
       << "Graph Information\n------------------------\nName\t|V(G)|\t|E(G)|"
       << std::endl;
-  std::cout << "\t" << this->graph_id << "\t\t" << this->vertex_count << "\t\t"
-            << this->edge_count << "\t" << std::endl;
+  std::cout << "\t" << this->graph_id << "\t\t" << this->order << "\t\t"
+            << this->size << "\t" << std::endl;
   std::cout << "------------------------" << std::endl;
 
   for (auto &edge_ptr : E_G) // Access by reference to avoid copying.
@@ -73,15 +116,38 @@ void Graph::visualize() {
     char v_id_a, v_id_b;
 
     // Identify vertex a.
-    v_id_a = V_G[edge_ptr->getIdA()]->get_char_id();
+    v_id_a = V_G[edge_ptr->get_index_a()]->get_char_id();
 
-    // Identify type of graph
+    // Identify type of graph (Directed or Undirected).
     std::string arrow = (this->getType() == 'D' ? "-->" : "<-->");
 
     // Identify vertex b.
-    v_id_b = V_G[edge_ptr->getIdB()]->get_char_id();
+    v_id_b = V_G[edge_ptr->get_index_b()]->get_char_id();
 
+    // Print the edge.
     std::cout << "(" << v_id_a << ")" << arrow << "(" << v_id_b << ")"
               << std::endl;
+  }
+}
+
+int Graph::getOrder() const { return order; }
+
+int Graph::getSize() const { return size; }
+/**
+ * If vertices with id_a and id_b are connected return the weight of the edge
+ * between them. Otherwise return zero.
+ * @param id_a :
+ * @param id_b :
+ * @return weight of the edge between the vertices, 0 if no edge exists.
+ */
+int Graph::are_connected(const char &id_a, const char &id_b) const {
+  for (auto &edge : E_G) {
+    int a = edge->get_index_a();
+    int b = edge->get_index_b();
+    if (V_G[a]->get_char_id() == id_a && V_G[b]->get_char_id() == id_b) {
+      // There exists an edge.
+      return edge->getWeight();
+    }
+    return 0;
   }
 }
