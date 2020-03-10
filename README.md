@@ -36,4 +36,13 @@ A library of C++ code that implements graph theoretical algorithms to be used by
   // Compute the distance from vertex b to every other vertex in G.
   map<char, int> distances_map = dijkstras_distances('b', G);
 ```
-
+### The result is the length of the shortest path between b and any other vertex in the graph.
+```
+L(a) = 7
+L(b) = 0
+L(c) = 8
+L(d) = 2
+L(e) = 6
+L(f) = 5
+L(g) = 3
+```
