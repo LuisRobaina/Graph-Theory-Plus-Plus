@@ -29,12 +29,14 @@ void Graph::add_vertex(char id_char, string content) {
  * @return : A pointer to the ith vertex in G or nullptr if  there is no ith
  * vertex in G.
  */
+
 Vertex *Graph::get_ith_vertex(const int &i) const {
-  if (i < 0 || i >= V_G.size()) {
+  if (i < 0 || i > order) {
     return nullptr;
   }
   return V_G[i];
 }
+
 /**
  *
  * @param id
@@ -73,7 +75,6 @@ void Graph::add_edge(const char &id_a, const char &id_b, double weight) {
       index_b = i;
     }
   }
-
   // If a and/or b were not found then index_a = -1 and/or index_b = -1.
   if (index_a == -1) {
     add_vertex(id_a);
@@ -148,6 +149,6 @@ int Graph::are_connected(const char &id_a, const char &id_b) const {
       // There exists an edge.
       return edge->getWeight();
     }
-    return 0;
   }
+  return 0;
 }

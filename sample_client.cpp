@@ -27,6 +27,7 @@ int main() {
 
   cout << "Running Dijsktra's Algorithm" << endl;
   map<char, int> distances_map = dijkstras_distances('b', G);
+
   map<char, int>::iterator itr;
 
   cout << distances_map.size() << endl;
@@ -34,6 +35,5 @@ int main() {
   for (itr = distances_map.begin(); itr != distances_map.end(); ++itr) {
     cout << "L(" << itr->first << ") = " << itr->second << endl;
   }
-
   return 0;
 }
