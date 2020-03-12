@@ -12,7 +12,7 @@ A library of C++ code that implements graph theoretical algorithms to be used by
 ```  
 ### Algorithms supported in Graph-Theory++
 ```
-Dijkstra's Algorithm - Returns the length of the shortest path from a source vertex to every other vertex in the graph.  
+1. Dijkstra's Algorithm - Returns the length of the shortest path from a source vertex to every other vertex in the graph.  
 ```
 
 
