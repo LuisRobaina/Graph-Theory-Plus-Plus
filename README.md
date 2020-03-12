@@ -10,6 +10,12 @@ A library of C++ code that implements graph theoretical algorithms to be used by
   #include "Utils/Graph.h"
   #include <iostream>
 ```  
+### Algorithms supported in Graph-Theory++
+```
+Dijkstra's Algorithm - Returns the length of the shortest path from a source vertex to every other vertex in the graph.  
+```
+
+
 ### Add to your client function:
 ```
   // Create an empty directed graph A.
