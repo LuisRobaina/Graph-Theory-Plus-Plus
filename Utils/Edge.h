@@ -7,6 +7,7 @@
 #include "Vertex.h"
 
 class Edge {
+
 public:
   Edge(const int a, const int b, const double w) {
     this->id_a = a;

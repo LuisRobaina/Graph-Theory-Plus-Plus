@@ -25,7 +25,7 @@ void Graph::add_vertex(char id_char, string content) {
 
 /**
  *
- * @param i : Index of the ith vertex to be retreived.
+ * @param i : Index of the ith vertex to be retrieved.
  * @return : A pointer to the ith vertex in G or nullptr if  there is no ith
  * vertex in G.
  */
@@ -132,14 +132,14 @@ void Graph::visualize() {
 }
 
 int Graph::getOrder() const { return order; }
-
 int Graph::getSize() const { return size; }
+
 /**
  * If vertices with id_a and id_b are connected return the weight of the edge
  * between them. Otherwise return zero.
  * @param id_a :
  * @param id_b :
- * @return weight of the edge between the vertices, 0 if no edge exists.
+ * @return Weight of the edge between the vertices or 0 if no edge exists.
  */
 int Graph::are_connected(const char &id_a, const char &id_b) const {
   for (auto &edge : E_G) {

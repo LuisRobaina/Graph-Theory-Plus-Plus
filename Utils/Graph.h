@@ -23,7 +23,6 @@ private:
 
 public:
   // Convention : D = directed, U = undirected.
-
   Graph(char graph_id, char type = 'U');
 
   void add_vertex(char id_char = ' ', string content = "");
@@ -36,7 +35,6 @@ public:
   char getType();
   int are_connected(const char &id_a, const char &id_b) const;
   int getOrder() const;
-
   int getSize() const;
 };
 

@@ -1,4 +1,3 @@
-//
 // Created by Luis Fabian on 2/20/20.
 // Implements Dijkstra's Single Source Distance Algorithm.
 
@@ -11,6 +10,14 @@
 
 #include <iostream>
 
+/**
+ * Utility function to dijkstras_distances() function.
+ *
+ * @param v - Char ID of the vertex to be check if it has been visited.
+ * @param visited_vertices - Vector of char contains the char ID of the visited
+ * vertices.
+ * @return True if the vertex has been visited, false otherwise.
+ */
 bool visited(const char &v, vector<char> &visited_vertices) {
   if (std::find(visited_vertices.begin(), visited_vertices.end(), v) !=
       visited_vertices.end()) {
@@ -20,6 +27,14 @@ bool visited(const char &v, vector<char> &visited_vertices) {
   return false;
 }
 
+/**
+ * Utility function to dijkstras_distances() function.
+ *
+ * @param L - A map containing the length of the shortest known path to every
+ * vertex from a source vertex
+ * @param visited_vertices
+ * @return
+ */
 char get_closest_vertex(std::map<char, int> &L,
                         vector<char> &visited_vertices) {
   char vertex = ' ';
@@ -39,6 +54,7 @@ char get_closest_vertex(std::map<char, int> &L,
 }
 
 /**
+ * Implements the Dijkstra's distance algorithm.
  *
  * @param source : Single source for dijkstra's algorithm.
  * @param G : Directed Graph.

@@ -16,13 +16,17 @@ Vertex::Vertex(int id, char id_char, string content) {
 // TODO: Update to keep track of vertex id in data struct and not the reference.
 void Vertex::addAdj(const Vertex &a, double weight) {
 
-  // Keep parallel vectors with a reference to edge a and respective edge
+  // Keeps parallel vectors with a reference to vertex a and respective edge
   // weight.
   this->adjacent_vertices.push_back(a);
   this->edge_weight.push_back(weight);
   adjacency_count++;
 }
 
+/**
+ * @param a - Reference to a vertex a
+ * @return True if this vertex is adjacent to the vertex a, false otherwise.
+ */
 bool Vertex::isAdj(const Vertex &a) {
   for (int i = 0; i < this->adjacency_count; i++) {
     if (this->adjacent_vertices[i] == a) {
