@@ -3,6 +3,17 @@
 A library of C++ code that implements graph theoretical algorithms to be used by projects that require some form of graph structured data.
 
 # How to use it.
+Compile using cmake:
+Clone this project, go to the project main directory and run the following command and cmake will take care  of all the compiling process.
+```
+cmake --build $(pwd)/cmake-build-debug --target GraphTheory -- -j  2
+```
+Then:
+```
+cd cmake-build-debug
+./GraphTheory
+```
+
 ### This example shows how to create a directed graph.
 ``` 
   // Include the Algorithm to be used.

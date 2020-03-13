@@ -20,14 +20,6 @@ iostream
 Vertex.h
 /Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.h
 
-/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.cpp
-Graph.h
-/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.h
-iostream
--
-string
--
-
 /Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.h
 Edge.h
 /Users/luisfabian/Desktop/C++/GraphTheory/Utils/Edge.h
