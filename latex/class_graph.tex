@@ -1,0 +1,106 @@
+\hypertarget{class_graph}{}\doxysection{Graph Class Reference}
+\label{class_graph}\index{Graph@{Graph}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_graph_a3559e442fca47585ee0ea4e83640091e}\label{class_graph_a3559e442fca47585ee0ea4e83640091e}} 
+{\bfseries Graph} (char graph\+\_\+id, char type=\textquotesingle{}U\textquotesingle{})
+\item 
+\mbox{\Hypertarget{class_graph_a021ce78f289cc2057590a77c3a5f4429}\label{class_graph_a021ce78f289cc2057590a77c3a5f4429}} 
+void {\bfseries add\+\_\+vertex} (char id\+\_\+char=\textquotesingle{} \textquotesingle{}, string content=\char`\"{}\char`\"{})
+\item 
+void \mbox{\hyperlink{class_graph_ad4d19e52bdb0b5be0a066ecb377c44c6}{add\+\_\+edge}} (const char \&, const char \&, double weight=1)
+\item 
+\mbox{\hyperlink{class_vertex}{Vertex}} $\ast$ \mbox{\hyperlink{class_graph_ac8e40ccf8737f2e7cb24319e64a5c313}{get\+\_\+ith\+\_\+vertex}} (const int \&i) const
+\item 
+\mbox{\hyperlink{class_vertex}{Vertex}} $\ast$ \mbox{\hyperlink{class_graph_a76e6d8efecd5dbc8c2a76be5de7de619}{get\+\_\+vertex\+\_\+by\+\_\+id}} (const char \&id) const
+\item 
+void \mbox{\hyperlink{class_graph_a8469831304846b9df52371e55c9e78c1}{visualize}} ()
+\item 
+\mbox{\Hypertarget{class_graph_a097f8ac327294e0738d1a9ff98c4fdf5}\label{class_graph_a097f8ac327294e0738d1a9ff98c4fdf5}} 
+char {\bfseries get\+Type} ()
+\item 
+int \mbox{\hyperlink{class_graph_a8fdcd8fed56d99c52c86461c484979e4}{are\+\_\+connected}} (const char \&id\+\_\+a, const char \&id\+\_\+b) const
+\item 
+\mbox{\Hypertarget{class_graph_a4edd61cf5268a3d467dafa9867376546}\label{class_graph_a4edd61cf5268a3d467dafa9867376546}} 
+int {\bfseries get\+Order} () const
+\item 
+\mbox{\Hypertarget{class_graph_abe53f5d640fd633e100aa77c6e714f41}\label{class_graph_abe53f5d640fd633e100aa77c6e714f41}} 
+int {\bfseries get\+Size} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_graph_ad4d19e52bdb0b5be0a066ecb377c44c6}\label{class_graph_ad4d19e52bdb0b5be0a066ecb377c44c6}} 
+\index{Graph@{Graph}!add\_edge@{add\_edge}}
+\index{add\_edge@{add\_edge}!Graph@{Graph}}
+\doxysubsubsection{\texorpdfstring{add\_edge()}{add\_edge()}}
+{\footnotesize\ttfamily void Graph\+::add\+\_\+edge (\begin{DoxyParamCaption}\item[{const char \&}]{id\+\_\+a,  }\item[{const char \&}]{id\+\_\+b,  }\item[{double}]{weight = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+Create an edge between the vertices a and b in the graph. If a or b are not vertices on the graph, creates a new vertex.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+\_\+a} & \+: Character ID of of the vertex a. \\
+\hline
+{\em id\+\_\+b} & \+: Character ID of of the vertex b. \\
+\hline
+{\em weight} & \+: Weight to be assigned to the edge a-\/b. weight defaults to 1. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_graph_a8fdcd8fed56d99c52c86461c484979e4}\label{class_graph_a8fdcd8fed56d99c52c86461c484979e4}} 
+\index{Graph@{Graph}!are\_connected@{are\_connected}}
+\index{are\_connected@{are\_connected}!Graph@{Graph}}
+\doxysubsubsection{\texorpdfstring{are\_connected()}{are\_connected()}}
+{\footnotesize\ttfamily int Graph\+::are\+\_\+connected (\begin{DoxyParamCaption}\item[{const char \&}]{id\+\_\+a,  }\item[{const char \&}]{id\+\_\+b }\end{DoxyParamCaption}) const}
+
+If vertices with id\+\_\+a and id\+\_\+b are connected return the weight of the edge between them. Otherwise return zero. 
+\begin{DoxyParams}{Parameters}
+{\em id\+\_\+a} & \+: \\
+\hline
+{\em id\+\_\+b} & \+: \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Weight of the edge between the vertices or 0 if no edge exists. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_graph_ac8e40ccf8737f2e7cb24319e64a5c313}\label{class_graph_ac8e40ccf8737f2e7cb24319e64a5c313}} 
+\index{Graph@{Graph}!get\_ith\_vertex@{get\_ith\_vertex}}
+\index{get\_ith\_vertex@{get\_ith\_vertex}!Graph@{Graph}}
+\doxysubsubsection{\texorpdfstring{get\_ith\_vertex()}{get\_ith\_vertex()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_vertex}{Vertex}} $\ast$ Graph\+::get\+\_\+ith\+\_\+vertex (\begin{DoxyParamCaption}\item[{const int \&}]{i }\end{DoxyParamCaption}) const}
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \+: Index of the ith vertex to be retrieved. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\+: A pointer to the ith vertex in G or nullptr if there is no ith vertex in G. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_graph_a76e6d8efecd5dbc8c2a76be5de7de619}\label{class_graph_a76e6d8efecd5dbc8c2a76be5de7de619}} 
+\index{Graph@{Graph}!get\_vertex\_by\_id@{get\_vertex\_by\_id}}
+\index{get\_vertex\_by\_id@{get\_vertex\_by\_id}!Graph@{Graph}}
+\doxysubsubsection{\texorpdfstring{get\_vertex\_by\_id()}{get\_vertex\_by\_id()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_vertex}{Vertex}} $\ast$ Graph\+::get\+\_\+vertex\+\_\+by\+\_\+id (\begin{DoxyParamCaption}\item[{const char \&}]{id }\end{DoxyParamCaption}) const}
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_graph_a8469831304846b9df52371e55c9e78c1}\label{class_graph_a8469831304846b9df52371e55c9e78c1}} 
+\index{Graph@{Graph}!visualize@{visualize}}
+\index{visualize@{visualize}!Graph@{Graph}}
+\doxysubsubsection{\texorpdfstring{visualize()}{visualize()}}
+{\footnotesize\ttfamily void Graph\+::visualize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Prints every edge in the graph, to be used as a visual tool. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Utils/Graph.\+h\item 
+Utils/Graph.\+cpp\end{DoxyCompactItemize}
