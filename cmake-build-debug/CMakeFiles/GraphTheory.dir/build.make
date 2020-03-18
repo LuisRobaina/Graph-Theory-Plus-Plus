@@ -57,18 +57,18 @@ include CMakeFiles/GraphTheory.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/GraphTheory.dir/flags.make
 
-CMakeFiles/GraphTheory.dir/sample_client.cpp.o: CMakeFiles/GraphTheory.dir/flags.make
-CMakeFiles/GraphTheory.dir/sample_client.cpp.o: ../sample_client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GraphTheory.dir/sample_client.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GraphTheory.dir/sample_client.cpp.o -c /Users/luisfabian/Desktop/C++/GraphTheory/sample_client.cpp
+CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.o: CMakeFiles/GraphTheory.dir/flags.make
+CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.o: ../Sample\ Clients/sample_client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.o -c "/Users/luisfabian/Desktop/C++/GraphTheory/Sample Clients/sample_client.cpp"
 
-CMakeFiles/GraphTheory.dir/sample_client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GraphTheory.dir/sample_client.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luisfabian/Desktop/C++/GraphTheory/sample_client.cpp > CMakeFiles/GraphTheory.dir/sample_client.cpp.i
+CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/luisfabian/Desktop/C++/GraphTheory/Sample Clients/sample_client.cpp" > CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.i
 
-CMakeFiles/GraphTheory.dir/sample_client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GraphTheory.dir/sample_client.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luisfabian/Desktop/C++/GraphTheory/sample_client.cpp -o CMakeFiles/GraphTheory.dir/sample_client.cpp.s
+CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/luisfabian/Desktop/C++/GraphTheory/Sample Clients/sample_client.cpp" -o CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.s
 
 CMakeFiles/GraphTheory.dir/Utils/Graph.cpp.o: CMakeFiles/GraphTheory.dir/flags.make
 CMakeFiles/GraphTheory.dir/Utils/Graph.cpp.o: ../Utils/Graph.cpp
@@ -96,21 +96,66 @@ CMakeFiles/GraphTheory.dir/Utils/Vertex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GraphTheory.dir/Utils/Vertex.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.cpp -o CMakeFiles/GraphTheory.dir/Utils/Vertex.cpp.s
 
+CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.o: CMakeFiles/GraphTheory.dir/flags.make
+CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.o: ../Utils/Network_Edge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.o -c /Users/luisfabian/Desktop/C++/GraphTheory/Utils/Network_Edge.cpp
+
+CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luisfabian/Desktop/C++/GraphTheory/Utils/Network_Edge.cpp > CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.i
+
+CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luisfabian/Desktop/C++/GraphTheory/Utils/Network_Edge.cpp -o CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.s
+
+CMakeFiles/GraphTheory.dir/Utils/Network.cpp.o: CMakeFiles/GraphTheory.dir/flags.make
+CMakeFiles/GraphTheory.dir/Utils/Network.cpp.o: ../Utils/Network.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GraphTheory.dir/Utils/Network.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GraphTheory.dir/Utils/Network.cpp.o -c /Users/luisfabian/Desktop/C++/GraphTheory/Utils/Network.cpp
+
+CMakeFiles/GraphTheory.dir/Utils/Network.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GraphTheory.dir/Utils/Network.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/luisfabian/Desktop/C++/GraphTheory/Utils/Network.cpp > CMakeFiles/GraphTheory.dir/Utils/Network.cpp.i
+
+CMakeFiles/GraphTheory.dir/Utils/Network.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GraphTheory.dir/Utils/Network.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/luisfabian/Desktop/C++/GraphTheory/Utils/Network.cpp -o CMakeFiles/GraphTheory.dir/Utils/Network.cpp.s
+
+CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.o: CMakeFiles/GraphTheory.dir/flags.make
+CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.o: ../Sample\ Clients/network_sample_client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.o -c "/Users/luisfabian/Desktop/C++/GraphTheory/Sample Clients/network_sample_client.cpp"
+
+CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/luisfabian/Desktop/C++/GraphTheory/Sample Clients/network_sample_client.cpp" > CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.i
+
+CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/luisfabian/Desktop/C++/GraphTheory/Sample Clients/network_sample_client.cpp" -o CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.s
+
 # Object files for target GraphTheory
 GraphTheory_OBJECTS = \
-"CMakeFiles/GraphTheory.dir/sample_client.cpp.o" \
+"CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.o" \
 "CMakeFiles/GraphTheory.dir/Utils/Graph.cpp.o" \
-"CMakeFiles/GraphTheory.dir/Utils/Vertex.cpp.o"
+"CMakeFiles/GraphTheory.dir/Utils/Vertex.cpp.o" \
+"CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.o" \
+"CMakeFiles/GraphTheory.dir/Utils/Network.cpp.o" \
+"CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.o"
 
 # External object files for target GraphTheory
 GraphTheory_EXTERNAL_OBJECTS =
 
-GraphTheory: CMakeFiles/GraphTheory.dir/sample_client.cpp.o
+GraphTheory: CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.o
 GraphTheory: CMakeFiles/GraphTheory.dir/Utils/Graph.cpp.o
 GraphTheory: CMakeFiles/GraphTheory.dir/Utils/Vertex.cpp.o
+GraphTheory: CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.o
+GraphTheory: CMakeFiles/GraphTheory.dir/Utils/Network.cpp.o
+GraphTheory: CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.o
 GraphTheory: CMakeFiles/GraphTheory.dir/build.make
 GraphTheory: CMakeFiles/GraphTheory.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable GraphTheory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable GraphTheory"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GraphTheory.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

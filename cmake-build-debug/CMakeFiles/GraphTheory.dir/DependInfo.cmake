@@ -4,9 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/luisfabian/Desktop/C++/GraphTheory/Sample Clients/network_sample_client.cpp" "/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.o"
+  "/Users/luisfabian/Desktop/C++/GraphTheory/Sample Clients/sample_client.cpp" "/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.o"
   "/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.cpp" "/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles/GraphTheory.dir/Utils/Graph.cpp.o"
+  "/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Network.cpp" "/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles/GraphTheory.dir/Utils/Network.cpp.o"
+  "/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Network_Edge.cpp" "/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.o"
   "/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.cpp" "/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles/GraphTheory.dir/Utils/Vertex.cpp.o"
-  "/Users/luisfabian/Desktop/C++/GraphTheory/sample_client.cpp" "/Users/luisfabian/Desktop/C++/GraphTheory/cmake-build-debug/CMakeFiles/GraphTheory.dir/sample_client.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -9,11 +9,13 @@
 class Edge {
 
 public:
+
   Edge(const int a, const int b, const double w) {
     this->id_a = a;
     this->id_b = b;
     this->weight = w;
   }
+  Edge(){}
 
   int get_index_a() const { return id_a; }
 
@@ -21,8 +23,9 @@ public:
 
   double getWeight() const { return weight; }
 
-private:
-  int id_a;
+
+protected:
+    int id_a;
   int id_b;
   double weight;
 };

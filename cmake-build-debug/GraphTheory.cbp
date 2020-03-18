@@ -83,6 +83,12 @@
 		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Algorithms/DijkstrasDistanceAlgorithm.h">
 			<Option target="GraphTheory"/>
 		</Unit>
+		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Sample Clients/network_sample_client.cpp">
+			<Option target="GraphTheory"/>
+		</Unit>
+		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Sample Clients/sample_client.cpp">
+			<Option target="GraphTheory"/>
+		</Unit>
 		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Edge.h">
 			<Option target="GraphTheory"/>
 		</Unit>
@@ -92,13 +98,22 @@
 		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.h">
 			<Option target="GraphTheory"/>
 		</Unit>
+		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Network.cpp">
+			<Option target="GraphTheory"/>
+		</Unit>
+		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Network.h">
+			<Option target="GraphTheory"/>
+		</Unit>
+		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Network_Edge.cpp">
+			<Option target="GraphTheory"/>
+		</Unit>
+		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Network_Edge.h">
+			<Option target="GraphTheory"/>
+		</Unit>
 		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.cpp">
 			<Option target="GraphTheory"/>
 		</Unit>
 		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.h">
-			<Option target="GraphTheory"/>
-		</Unit>
-		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/sample_client.cpp">
 			<Option target="GraphTheory"/>
 		</Unit>
 		<Unit filename="/Users/luisfabian/Desktop/C++/GraphTheory/CMakeLists.txt">

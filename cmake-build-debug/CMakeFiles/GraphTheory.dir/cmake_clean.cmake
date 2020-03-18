@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.o"
+  "CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.o"
   "CMakeFiles/GraphTheory.dir/Utils/Graph.cpp.o"
+  "CMakeFiles/GraphTheory.dir/Utils/Network.cpp.o"
+  "CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.o"
   "CMakeFiles/GraphTheory.dir/Utils/Vertex.cpp.o"
-  "CMakeFiles/GraphTheory.dir/sample_client.cpp.o"
   "GraphTheory"
   "GraphTheory.pdb"
 )

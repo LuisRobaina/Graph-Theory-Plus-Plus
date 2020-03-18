@@ -13,7 +13,7 @@ Graph::Graph(char graph_id, char type) {
   order = 0;
   size = 0;
 }
-
+Graph::Graph() {}
 char Graph::getType() { return type; }
 
 void Graph::add_vertex(char id_char, string content) {
@@ -36,6 +36,14 @@ Vertex *Graph::get_ith_vertex(const int &i) const {
   }
   return V_G[i];
 }
+
+Edge *Graph::get_ith_edge(const int &i) const {
+    if (i < 0 || i > order) {
+        return nullptr;
+    }
+    return E_G[i];
+}
+
 
 /**
  *

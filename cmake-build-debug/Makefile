@@ -123,6 +123,60 @@ GraphTheory/fast:
 	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/build
 .PHONY : GraphTheory/fast
 
+Sample_Clients/network_sample_client.o: Sample_Clients/network_sample_client.cpp.o
+
+.PHONY : Sample_Clients/network_sample_client.o
+
+# target to build an object file
+Sample_Clients/network_sample_client.cpp.o:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.o
+.PHONY : Sample_Clients/network_sample_client.cpp.o
+
+Sample_Clients/network_sample_client.i: Sample_Clients/network_sample_client.cpp.i
+
+.PHONY : Sample_Clients/network_sample_client.i
+
+# target to preprocess a source file
+Sample_Clients/network_sample_client.cpp.i:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.i
+.PHONY : Sample_Clients/network_sample_client.cpp.i
+
+Sample_Clients/network_sample_client.s: Sample_Clients/network_sample_client.cpp.s
+
+.PHONY : Sample_Clients/network_sample_client.s
+
+# target to generate assembly for a file
+Sample_Clients/network_sample_client.cpp.s:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Sample_Clients/network_sample_client.cpp.s
+.PHONY : Sample_Clients/network_sample_client.cpp.s
+
+Sample_Clients/sample_client.o: Sample_Clients/sample_client.cpp.o
+
+.PHONY : Sample_Clients/sample_client.o
+
+# target to build an object file
+Sample_Clients/sample_client.cpp.o:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.o
+.PHONY : Sample_Clients/sample_client.cpp.o
+
+Sample_Clients/sample_client.i: Sample_Clients/sample_client.cpp.i
+
+.PHONY : Sample_Clients/sample_client.i
+
+# target to preprocess a source file
+Sample_Clients/sample_client.cpp.i:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.i
+.PHONY : Sample_Clients/sample_client.cpp.i
+
+Sample_Clients/sample_client.s: Sample_Clients/sample_client.cpp.s
+
+.PHONY : Sample_Clients/sample_client.s
+
+# target to generate assembly for a file
+Sample_Clients/sample_client.cpp.s:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Sample_Clients/sample_client.cpp.s
+.PHONY : Sample_Clients/sample_client.cpp.s
+
 Utils/Graph.o: Utils/Graph.cpp.o
 
 .PHONY : Utils/Graph.o
@@ -149,6 +203,60 @@ Utils/Graph.s: Utils/Graph.cpp.s
 Utils/Graph.cpp.s:
 	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Utils/Graph.cpp.s
 .PHONY : Utils/Graph.cpp.s
+
+Utils/Network.o: Utils/Network.cpp.o
+
+.PHONY : Utils/Network.o
+
+# target to build an object file
+Utils/Network.cpp.o:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Utils/Network.cpp.o
+.PHONY : Utils/Network.cpp.o
+
+Utils/Network.i: Utils/Network.cpp.i
+
+.PHONY : Utils/Network.i
+
+# target to preprocess a source file
+Utils/Network.cpp.i:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Utils/Network.cpp.i
+.PHONY : Utils/Network.cpp.i
+
+Utils/Network.s: Utils/Network.cpp.s
+
+.PHONY : Utils/Network.s
+
+# target to generate assembly for a file
+Utils/Network.cpp.s:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Utils/Network.cpp.s
+.PHONY : Utils/Network.cpp.s
+
+Utils/Network_Edge.o: Utils/Network_Edge.cpp.o
+
+.PHONY : Utils/Network_Edge.o
+
+# target to build an object file
+Utils/Network_Edge.cpp.o:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.o
+.PHONY : Utils/Network_Edge.cpp.o
+
+Utils/Network_Edge.i: Utils/Network_Edge.cpp.i
+
+.PHONY : Utils/Network_Edge.i
+
+# target to preprocess a source file
+Utils/Network_Edge.cpp.i:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.i
+.PHONY : Utils/Network_Edge.cpp.i
+
+Utils/Network_Edge.s: Utils/Network_Edge.cpp.s
+
+.PHONY : Utils/Network_Edge.s
+
+# target to generate assembly for a file
+Utils/Network_Edge.cpp.s:
+	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Utils/Network_Edge.cpp.s
+.PHONY : Utils/Network_Edge.cpp.s
 
 Utils/Vertex.o: Utils/Vertex.cpp.o
 
@@ -177,33 +285,6 @@ Utils/Vertex.cpp.s:
 	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/Utils/Vertex.cpp.s
 .PHONY : Utils/Vertex.cpp.s
 
-sample_client.o: sample_client.cpp.o
-
-.PHONY : sample_client.o
-
-# target to build an object file
-sample_client.cpp.o:
-	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/sample_client.cpp.o
-.PHONY : sample_client.cpp.o
-
-sample_client.i: sample_client.cpp.i
-
-.PHONY : sample_client.i
-
-# target to preprocess a source file
-sample_client.cpp.i:
-	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/sample_client.cpp.i
-.PHONY : sample_client.cpp.i
-
-sample_client.s: sample_client.cpp.s
-
-.PHONY : sample_client.s
-
-# target to generate assembly for a file
-sample_client.cpp.s:
-	$(MAKE) -f CMakeFiles/GraphTheory.dir/build.make CMakeFiles/GraphTheory.dir/sample_client.cpp.s
-.PHONY : sample_client.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +294,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... GraphTheory"
+	@echo "... Sample_Clients/network_sample_client.o"
+	@echo "... Sample_Clients/network_sample_client.i"
+	@echo "... Sample_Clients/network_sample_client.s"
+	@echo "... Sample_Clients/sample_client.o"
+	@echo "... Sample_Clients/sample_client.i"
+	@echo "... Sample_Clients/sample_client.s"
 	@echo "... Utils/Graph.o"
 	@echo "... Utils/Graph.i"
 	@echo "... Utils/Graph.s"
+	@echo "... Utils/Network.o"
+	@echo "... Utils/Network.i"
+	@echo "... Utils/Network.s"
+	@echo "... Utils/Network_Edge.o"
+	@echo "... Utils/Network_Edge.i"
+	@echo "... Utils/Network_Edge.s"
 	@echo "... Utils/Vertex.o"
 	@echo "... Utils/Vertex.i"
 	@echo "... Utils/Vertex.s"
-	@echo "... sample_client.o"
-	@echo "... sample_client.i"
-	@echo "... sample_client.s"
 .PHONY : help
 
 

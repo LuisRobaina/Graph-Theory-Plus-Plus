@@ -6,39 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/Users/luisfabian/Desktop/C++/GraphTheory/Algorithms/DijkstrasDistanceAlgorithm.h
-../Utils/Graph.h
-/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.h
-iterator
--
-map
--
-iostream
--
-
-/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Edge.h
-Vertex.h
-/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.h
-
-/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.h
-Edge.h
-/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Edge.h
-Vertex.h
-/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.h
-vector
--
-
-/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Vertex.h
-string
--
-vector
--
-
-/Users/luisfabian/Desktop/C++/GraphTheory/sample_client.cpp
-Algorithms/DijkstrasDistanceAlgorithm.h
-/Users/luisfabian/Desktop/C++/GraphTheory/Algorithms/DijkstrasDistanceAlgorithm.h
-Utils/Graph.h
-/Users/luisfabian/Desktop/C++/GraphTheory/Utils/Graph.h
-iostream
--
+/Users/luisfabian/Desktop/C++/GraphTheory/Sample Clients/network_sample_client.cpp
 

@@ -13,7 +13,7 @@ using namespace std;
 
 class Graph {
 
-private:
+protected:
   char graph_id;
   char type;
   vector<Vertex *> V_G;
@@ -21,16 +21,17 @@ private:
   int order; // Number of vertices.
   int size;  // Number of edges.
 
+
 public:
   // Convention : D = directed, U = undirected.
   Graph(char graph_id, char type = 'U');
-
-  void add_vertex(char id_char = ' ', string content = "");
+    Graph();
+    void add_vertex(char id_char = ' ', string content = "");
 
   void add_edge(const char &, const char &, double weight = 1);
   Vertex *get_ith_vertex(const int &i) const;
   Vertex *get_vertex_by_id(const char &id) const;
-
+  Edge *get_ith_edge(const int &i) const;
   void visualize();
   char getType();
   int are_connected(const char &id_a, const char &id_b) const;
